@@ -94,21 +94,27 @@
     <p>O Bella Napoli é um restaurante italiano tradicional, inspirado nas clássicas trattorias de Nápoles e Roma. Nosso foco é oferecer massas artesanais, pizzas assadas em forno a lenha, molhos preparados lentamente e receitas autênticas da culinária italiana.
     <p>O ambiente é acolhedor e elegante, remetendo às cantinas italianas, ideal para famílias, casais e encontros especiais. Trabalhamos com ingredientes importados e nacionais de alta qualidade, respeitando as tradições gastronômicas da Itália.</p></p>
 
-    <!-- Carousel Bootstrap: componente para exibir imagens em destaque com transição automática -->
-    <div id="carouselRestaurante" class="carousel slide mb-4" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <!-- OBS: se as imagens online não carregarem, substitua por imagens locais em /img -->
-        <div class="carousel-item active">
-          <img src="massa.jpg" class="d-block w-100" alt="Massa italiana tradicional">
-        </div>
-        <div class="carousel-item">
-          <img src="pizza.jpg" class="d-block w-100" alt="Pizza napolitana">
-        </div>
-        <div class="carousel-item">
-          <img src="cidade.jpg" class="d-block w-100" alt="Cidade italiana">
-        </div>
-      </div>
+    <!-- Carousel Bootstrap: componente para exibir imagens em destaque com transição -->
+<div 
+  id="carouselRestaurante" 
+  class="carousel slide mb-4" 
+  data-bs-ride="carousel"
+  data-bs-interval="5000"
+>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="massa.jpg" class="d-block w-100" alt="Massa italiana tradicional">
     </div>
+
+    <div class="carousel-item">
+      <img src="pizza.jpg" class="d-block w-100" alt="Pizza napolitana">
+    </div>
+
+    <div class="carousel-item">
+      <img src="cidade.jpg" class="d-block w-100" alt="Cidade italiana">
+    </div>
+  </div>
+</div>
 
     <!-- Seção de horário de funcionamento
      Mantém o padrão visual original (tabela Bootstrap)
@@ -299,6 +305,7 @@ alert("Bem-vindo! Aproveite o site do Bella Napoli e descubra o sabor da Itália
 </script>
 </body>
 </html>
+
 
 
 
